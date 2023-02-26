@@ -1,0 +1,170 @@
+@font-face {
+    font-family: Magic-Stary;
+    src: url(MagicStary.otf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(Lato-Regular.ttf);
+}
+
+body
+{
+    /*background-color: rgb(222, 255, 254);*/
+    background-color: #ffd3da;
+}
+
+/*"Meet Andy Gelfo" in the body*/
+#mainHeading
+{
+    font-family: Magic-Stary;
+    font-size: 400%;
+    color: #040633;
+}
+
+.secondaryHeading
+{
+    font-weight: bold;
+    font-size: 200%;
+    color: #040633;
+}
+
+/*"Andy Gelfo" on the Navbar*/
+#logoNavLink
+{
+    font-family: Magic-Stary;
+    font-size: 250%;
+}
+
+/*For all links, apply a smooth hover color transition*/
+a
+{
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#logoNavLink:hover
+{
+    color: #9dfff9;
+    
+}
+
+#logoNavLink:active
+{
+    color: #9dddff;
+    
+}
+
+/*Horizontal divider - just purple*/
+#purpleDivider
+{
+    background-color: #52154e;
+    text-align: center;
+}
+
+#centerHeading
+{
+    font-family: Magic-Stary;
+    font-size: 450%;
+    text-align: center;
+    color: #040633;
+}
+
+.leftRightIcon
+{
+
+    width: 100%;
+
+    height: 100%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+}
+
+#contactMeSection
+{
+    background-color: #d4adcf;
+    font-size: large;
+}
+
+.outsideLink
+{
+    color:#52154e;
+    font-weight: bolder;
+    
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+.nav-link:hover
+{
+    color: #9dfff9;
+}
+
+.nav-link:active
+{
+    color: #9dddff;
+}
+
+.link_extra:hover
+{
+    color: #3887b2;
+}
+
+.link_extra:active
+{
+    color: #9dfff9;
+}
+
+
+.sectionHeader
+{
+    color:#52154e;
+    font-family: Magic-Stary;
+    text-align: center;
+    font-size: 500%;
+}
+
+
+.strokeText
+{
+    color: black;
+}
+
+.carousel { overflow: hidden; padding-bottom: 4rem; }
+.carousel-caption { top: 95%; }
+.carousel-inner { overflow: visible; }
+.carousel-control-next, .carousel-control-prev, .carousel-indicators { bottom: 4rem; }
+
+#curPageLink
+{
+    color: #9dddff;
+
+}
+
+.bottom-nav-link
+{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.sectionSecondary
+{
+    font-weight: bold;
+    font-size: 250%;
+    color: #350d32;
+    text-align: center;
+}
