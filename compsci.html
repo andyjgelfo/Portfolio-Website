@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Andy Gelfo - Computer Science</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Link BootStrap into the page-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--Link in my own CSS file-->
+    <link rel="stylesheet" href="css/style_cs.css">
+</head>
+
+
+<body>
+
+    <!--Navbar at the top of the page w/ links to the other pages-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+
+        <div class="container-fluid">
+
+            <a class="navbar-brand" id="logoNavLink" href="index.html">Andy Gelfo</a>
+
+            <!--Adding this will allow the navbar to be collapsed on smaller viewports-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--These classes and id's also is needed for collapsibility-->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" id="curPageLink" href="compsci.html">Computer Science Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="digitalmedia.html">Digital Media Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="workexp.html">Work Experience</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!--Main div for content-->
+    <div class="container-fluid">
+
+        <br />
+
+        <h6 style="text-align: center;">*Please note that this is a HIGHLIGHT of my academic Computer Science
+            schoolwork. My entire library of
+            programming schoolwork can be found on my academic GitHub repository, which is currently privated due
+            to university policy and is available upon request.
+        </h6>
+
+        <br />
+
+        <!--Begin section for FULL STACK-->
+        <div class="row">
+            <div class="col-lg-12" id="purpleDivider">&nbsp;</div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <p class="sectionHeader">FULL-STACK DEVELOPMENT</p>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+
+            <!--Div w/Text-->
+            <div class="col-lg-6">
+
+                <br /><br />
+                <span id="mainHeading">Pair-a-Dice Contact Manager</span>
+                <br>
+                <span class="secondaryHeading">LAMP Stack</span>
+                <br /><br />
+
+                <h5>
+                    Pair-a-Dice Contact Manager is a full-stack web application in which new and existing users alike
+                    can manage
+                    contact information of people they know! Existing users can log-in, and new users can register to be
+                    brought
+                    this wonderful casino-themed service. Done with a LAMP Stack, this project features a MySQL database
+                    where both
+                    users and contacts are stored, with subsequent PHP code to connect this data to the front-end. The
+                    front-end,
+                    which was my role, utilizes classic HTML, CSS, and JavaScript to bring the casino theme to life!
+
+                    <br /><br /><br />
+
+                    You can access Pair-a-Dice Contact Manager at <a class="outsideLink bottom-nav-link link_extra"
+                        href="http://www.pair-a-dice.online" target="_blank" style="text-decoration: underline;">pair-a-dice.online</a>!
+
+                </h5>
+
+            </div>
+
+
+            <!--Div w/Imagery-->
+            <div class="col-lg-6">
+
+                <br /><br />
+
+                <!--Carousel-->
+                <div id="pairadice" class="carousel slide" data-bs-ride="carousel">
+
+                    <!--Slideshow-->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/Pair-a-Dice_contacts.JPG" alt="Contact page of Pair-A-Dice Contact Management"
+                                class="d-block w-100 img-fluid rounded">
+                            <div class="carousel-caption strokeText">
+                                <p>
+                                <h5>Contacts page of Pair-a-Dice</h5>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="img/Pair-a-Dice_login.JPG" alt="Login page of Pair-A-Dice Contact Management"
+                                class="d-block w-100 img-fluid rounded">
+                            <div class="carousel-caption strokeText">
+                                <p>
+                                <h5>Login page of Pair-a-Dice</h5>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Left/right controls and icons-->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#pairadice"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#pairadice"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!--End carousel-->
+
+                <br /> <br />
+
+            </div>
+        </div>
+
+
+        <!--Begin section for Java-->
+        <div class="row">
+            <div class="col-lg-12" id="purpleDivider">&nbsp;</div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <p class="sectionHeader">JAVA</p>
+            </div>
+        </div>
+
+        <!--Example 1 - Word Finder-->
+        <div class="row">
+
+            <!--Div w/Text-->
+            <div class="col-lg-5">
+
+                <br /><br />
+                <span id="mainHeading">Matrix Word Finder</span>
+                <br>
+                <span class="secondaryHeading">Backtracking</span>
+                <br /><br />
+
+                <h5>
+                    This Java Project utilized Backtracking and Recursion to create a word finder. Given an
+                    MxN matrix of characters and a specific word to find, the program searches the matrix for the
+                    word.
+                    If the word is found, the program will visually display the word in the aforementioned matrix,
+                    and if
+                    the word is not found, it will be reported as such.
+
+                    <br /><br /><br />
+
+                    Words can be found horizontally, vertically, diagonally, and with a combination of all three.
+                    This
+                    makes backtracking through the matrix a difficult task, but can be done with precise navigation
+                    through a 2D Array of characters.
+
+
+                </h5>
+
+            </div>
+
+            <!--Div w/Imagery-->
+            <div class="col-lg-7">
+                <br><br>
+                <img src="img/JavaWordFinderFinal.png" width=100% height=100% class="rounded" class="img-fluid">
+
+            </div>
+        </div>
+
+        <br /><br /><br /><br /><br />
+
+
+        <!--Example 2 - Maze Magic-->
+        <div class="row">
+
+            <!--Div w/Text-->
+            <div class="col-lg-5">
+
+                <br /><br />
+                <span id="mainHeading">Maze Magic</span>
+                <br>
+                <span class="secondaryHeading">Breadth-First-Search</span>
+                <br /><br />
+
+                <h5>
+                    This Java Project utilized Breadth-First-Search (BFS) to find the lowest number of moves
+                    a person can make to escape a given maze (MxN matrix). Each square of the maze has its own
+                    properties, such as forbidden squares that cannot be accessed (!) teleportation squares
+                    (any letter, such as A to A or B to B), and exit squares ($).
+
+                    <br /><br /><br />
+
+                    Using BFS, as well as techniques such as a custom Graph class and a Hashmap with an ArrayList of
+                    coordinates for each key,
+                    this program was able to tackle massive test cases (1000x1000) in mere seconds.
+
+
+                </h5>
+
+            </div>
+
+            <!--Div w/Imagery-->
+            <div class="col-lg-7">
+                <br><br>
+                <img src="img/JavaMazeMagicFinal.png" width=100% height=100% class="rounded" class="img-fluid">
+
+
+
+            </div>
+        </div>
+
+        <br /> <br />
+        <br /> <br />
+        <br /> <br />
+
+
+
+        <!--Begin section for C/C++-->
+        <div class="row">
+            <div class="col-lg-12" id="purpleDivider">&nbsp;</div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <p class="sectionHeader">C/C++</p>
+            </div>
+        </div>
+
+        <!--Example 1 - Arcade Manager-->
+        <div class="row">
+
+            <!--Div w/Text-->
+            <div class="col-lg-6">
+
+                <br /><br />
+                <span id="mainHeading">Arcade Manager</span>
+                <br>
+                <span class="secondaryHeading">Stacks & Linked Lists</span>
+                <br /><br />
+
+                <h5>
+                    This C Project utilized Linked Lists and Stacks to manage the players that come into an arcade, as 
+                    well as their tokens. Input is taken from the user: if the input is 1, then a new player is entering
+                    the arcade and the user must give a string (name) and integer (tokens). If the input is 2, the player
+                    who entered the arcade most recently leaves (a Stack utilizes First In Last Out). If the input is 3, 
+                    the program will output the name of the player who entered with the most tokens that is still currently
+                    in the arcade.
+
+                    <br /><br /><br />
+
+                    The strategy of this program involved using a Linked List of nodes that store a "Player" pointer to the
+                    player currently in the node, a "Player" pointer to the current MVP (player with the most tokens), and a 
+                    "Node" pointer to the next node. I also used a Stack to perform FILO insertion/removal of players, as 
+                    described by the assignment instructions.
+
+
+                </h5>
+
+            </div>
+
+            <!--Div w/Imagery-->
+            <div class="col-lg-6">
+                <br><br><br><br>
+                <img src="img/C_ArcadeManager.png" width=100% max-height=100% class="rounded" class="img-fluid">
+
+            </div>
+        </div>
+
+        <br /><br /><br /><br /><br />
+
+         <!--Example 2 - Exciting Tournament-->
+         <div class="row">
+
+            <!--Div w/Text-->
+            <div class="col-lg-8">
+
+                <br /><br />
+                <span id="mainHeading">Scientific Calculator</span>
+                <br>
+                <span class="secondaryHeading">Dynamic Memory, File I/O, Etc.</span>
+                <br /><br />
+
+                <h5>
+                    This C Project is an interactive scientific calculator with all functionality that one would 
+                    expect in a scienfitic calculator. Trigonometric functions such as sine, cosine, tangent, and their 
+                    inverses are included as well as basic functions such as multiplication and exponentation. Numbers 
+                    can be stored and recalled in variables with the "sto" and "rcl" commands, and users can access previous 
+                    calculations via the "b" command, all of which required the use of dynamic memory allocation.
+
+                    <br /><br /><br />
+
+                    Command history is outputted to an external tape file when the program concludes. This was the final 
+                    project for my first ever programming course, and I am still proud of it to this day.
+
+
+                </h5>
+
+            </div>
+
+            <!--Div w/Imagery-->
+            <div class="col-lg-4">
+            
+                <img src="img/C_Calc1.png" width=100% max-height=100% class="rounded" class="img-fluid">
+
+            </div>
+        </div>
+
+        <br /><br /><br /><br /><br />
+
+
+        <!--Begin section for Web Dev-->
+        <div class="row">
+            <div class="col-lg-12" id="purpleDivider">&nbsp;</div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <p class="sectionHeader">WEB DEVELOPMENT</p>
+            </div>
+        </div>
+
+        <!--Example 1 - Farrier Service Website-->
+        <div class="row">
+            <!--Div w/Text-->
+            <div class="col-lg-6">
+
+                <br /><br />
+                <span id="mainHeading">Farrier Service Website</span>
+                <br>
+                <span class="secondaryHeading">HTML/CSS/BootStrap</span>
+                <br /><br />
+
+                <h5>
+                    This project is a Professional Farrier Service Webpage done with HTML, CSS, and BootStrap. Its pages
+                    tell prospective clients about the service, hours and contact info, the types of hoofcare options that 
+                    are offered, and a fun photo gallery!
+
+                    
+
+                    <br /><br /><br />
+
+                    While this page is not hosted online, it still gave me a great introduction into the world of professional
+                    website-building!
+
+
+                </h5>
+
+            </div>
+
+
+            <!--Div w/Imagery-->
+            <div class="col-lg-6">
+
+                <br /><br />
+
+                <!--Carousel-->
+                <div id="farrier" class="carousel slide" data-bs-ride="carousel">
+
+                    <!--Slideshow-->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/farrier/farrier_home.png" alt="Homepage of Farrier Service Website"
+                                class="d-block w-100 img-fluid rounded">
+                            <div class="carousel-caption strokeText">
+                                <p>
+                                <h5>Farrier Service - Homepage</h5>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="img/farrier/farrier_about.png" alt="About page of Farrier Service Website"
+                                class="d-block w-100 img-fluid rounded">
+                            <div class="carousel-caption strokeText">
+                                <p>
+                                <h5>Farrier Service - About</h5>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="img/farrier/farrier_products.png" alt="Products page of Farrier Service Website"
+                                class="d-block w-100 img-fluid rounded">
+                            <div class="carousel-caption strokeText">
+                                <p>
+                                <h5>Farrier Service - Hoofcare Services</h5>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="img/farrier/farrier_hours.png" alt="Hours page of Farrier Service Website"
+                                class="d-block w-100 img-fluid rounded">
+                            <div class="carousel-caption strokeText">
+                                <p>
+                                <h5>Farrier Service - Hours</h5>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="img/farrier/farrier_gallery.png" alt="Gallery page of Farrier Service Website"
+                                class="d-block w-100 img-fluid rounded">
+                            <div class="carousel-caption strokeText">
+                                <p>
+                                <h5>Farrier Service - Gallery</h5>
+                                </p>
+                            </div>
+                        </div>
+
+                       
+                    </div>
+
+                    <!--Left/right controls and icons-->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#farrier"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#farrier"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!--End carousel-->
+
+                <br /> <br />
+
+            </div>
+        </div>
+
+
+        <!--Example 2 - Boggle-->
+        <div class="row">
+            <!--Div w/Text-->
+            <div class="col-lg-6">
+
+                <br /><br />
+                <span id="mainHeading">Boggle Word Game</span>
+                <br>
+                <span class="secondaryHeading">JavaScript/PHP/ReactJS</span>
+                <br /><br />
+
+                <h5>
+                    This set of assignments brings the classic word game "Boggle" onto the web! The latter half of
+                    my web-development course was spent bringing different versions of Boggle to life via different
+                    languages, specifically JavaScript, PHP, and ReactJS!
+                </h5>
+
+            </div>
+
+
+            <!--Div w/Imagery-->
+            <div class="col-lg-6">
+
+                <br /><br />
+
+                <!--Carousel-->
+                <div id="boggle" class="carousel slide" data-bs-ride="carousel">
+
+                    <!--Slideshow-->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/boggle/boggle_js.png" alt="JavaScript version of Boggle game"
+                                class="d-block w-100 img-fluid rounded">
+                            <div class="carousel-caption strokeText">
+                                <p>
+                                <h5>Boggle with JavaScript</h5>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="img/boggle/boggle_php.png" alt="PHP version of Boggle game"
+                                class="d-block w-100 img-fluid rounded">
+                            <div class="carousel-caption strokeText">
+                                <p>
+                                <h5>Boggle with PHP</h5>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="img/boggle/boggle_react.png" alt="ReactJS version of Boggle game"
+                                class="d-block w-100 img-fluid rounded">
+                            <div class="carousel-caption strokeText">
+                                <p>
+                                <h5>Boggle with ReactJS</h5>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Left/right controls and icons-->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#boggle"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#boggle"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!--End carousel-->
+
+                <br /> <br />
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <!--Div where all content in the bottom portion of the page resides-->
+    <div class="container-fluid" id="contactMeSection">
+
+        <!--DIVIDER to bottom Contact Me page-->
+        <div class="row">
+            <div class="col-lg-12" id="purpleDivider">&nbsp;</div>
+        </div>
+
+        <div>
+           <br>
+
+
+            <div class="row">
+
+                <!--Homepage-->
+                <div class="col-lg-4">
+                    <a href="index.html" class="nav-link bottom-nav-link outsideLink" style="text-decoration: underline;"><- Homepage</a>
+                </div>
+
+                <!--Back to top-->
+                <div class="col-lg-4">
+                    <a href="#logoNavLink" class="nav-link bottom-nav-link outsideLink" style="text-align: center; text-decoration: underline;">Back to Top</a>
+                </div>
+
+                <!--DM Projects-->
+                <div class="col-lg-4">
+                    <a href="digitalmedia.html" class="nav-link bottom-nav-link outsideLink" style="text-align: right; text-decoration: underline;">Digital Media Projects -></a>
+                </div>
+
+            </div>
+
+
+
+            <br>
+        </div>
+
+    </div>
+
+            
+
+</body>
+
+</html>
